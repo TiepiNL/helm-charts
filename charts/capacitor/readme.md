@@ -8,7 +8,7 @@ This chart is based on https://github.com/sebastiangaiser/helm-charts/tree/main/
 Currently only Kubernetes native `NetworkPolicy` is supported.
 Check the values how to configure the flavor.
 
-## Values
+## Parameters
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
