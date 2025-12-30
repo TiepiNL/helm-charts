@@ -1,8 +1,10 @@
 # Helm Charts
 
-Custom Helm charts for [k8s-platform-core](https://github.com/TiepiNL/k8s-platform-core) platform components.
+Custom Helm charts for [k8s-platform-core](https://github.com/TiepiNL/k8s-platform-core) platform
+components.
 
-This repository provides Helm charts for Kubernetes resources that either lack official charts or require customized packaging for GitOps deployment patterns.
+This repository provides Helm charts for Kubernetes resources that either lack official charts or
+require customized packaging for GitOps deployment patterns.
 
 Charts are hosted via GitHub Pages at: `https://TiepiNL.github.io/helm-charts/`
 
@@ -14,4 +16,15 @@ Tl;dr:
 helm repo add tiepi https://TiepiNL.github.io/helm-charts/
 helm repo update
 helm search repo tiepi/
+```
+
+## Update Chart & Index
+
+```bash
+# helm package charts/<chart_name>/
+# example:
+helm package charts/gateway-api-crds/
+
+# Recreate the chart index of the repository
+helm repo index .
 ```
