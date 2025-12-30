@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  gateway-api-crds:
+  - apiVersion: v2
+    appVersion: v1.4.1
+    created: "2025-12-30T20:35:28.4970404+01:00"
+    description: Gateway API Custom Resource Definitions
+    digest: a9b0861df11e8141ea27300f374c723b90b28b2fbba4daf50f3938c1acf6d6e6
+    home: https://github.com/TiepiNL/helm-charts
+    keywords:
+    - gateway-api
+    - kubernetes
+    - crds
+    - networking
+    kubeVersion: '>=1.32.0-0'
+    maintainers:
+    - name: TiepiNL
+      url: https://github.com/TiepiNL
+    name: gateway-api-crds
+    sources:
+    - https://github.com/TiepiNL/helm-charts/tree/main/charts/gateway-api-crds
+    - https://github.com/kubernetes-sigs/gateway-api
+    type: application
+    urls:
+    - gateway-api-crds-1.4.1.tgz
+    version: 1.4.1
+generated: "2025-12-30T20:35:28.4934612+01:00"
