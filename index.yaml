@@ -3,9 +3,9 @@ entries:
   gateway-api-crds:
   - apiVersion: v2
     appVersion: v1.4.1
-    created: "2025-12-30T20:35:28.4970404+01:00"
+    created: "2025-12-30T21:22:41.2674754+01:00"
     description: Gateway API Custom Resource Definitions
-    digest: a9b0861df11e8141ea27300f374c723b90b28b2fbba4daf50f3938c1acf6d6e6
+    digest: a2946eb2b3a39c0010bb73d85575aa5c0b2ae0529a3e24449e54352111dfa415
     home: https://github.com/TiepiNL/helm-charts
     keywords:
     - gateway-api
@@ -24,4 +24,4 @@ entries:
     urls:
     - gateway-api-crds-1.4.1.tgz
     version: 1.4.1
-generated: "2025-12-30T20:35:28.4934612+01:00"
+generated: "2025-12-30T21:22:41.2654182+01:00"
