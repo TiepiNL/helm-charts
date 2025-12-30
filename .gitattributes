@@ -1,0 +1,12 @@
+# Auto detect text files and ensure they use LF line endings on checkout and in the repo
+* text=auto eol=lf
+
+# Explicitly declare common text files to use LF (defensive)
+.gitattributes   text eol=lf
+.gitignore       text eol=lf
+.helmignore      text eol=lf
+*.md             text eol=lf
+*.yaml           text eol=lf
+
+# Explicitly declare common binary files to prevent normalization
+*.tgz            binary
