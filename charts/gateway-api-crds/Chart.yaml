@@ -2,8 +2,8 @@ apiVersion: v2
 name: gateway-api-crds
 description: Gateway API Custom Resource Definitions
 type: application
-version: 1.6.0
-appVersion: v1.6.0
+version: 1.6.1
+appVersion: v1.6.1
 kubeVersion: ">=1.32.0-0"
 home: https://github.com/TiepiNL/helm-charts
 sources:
